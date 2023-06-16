@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 class UserToRegister(BaseModel):
-    first_name: str
+    #    first_name: str
     last_name: str
     email: str
     password: str
